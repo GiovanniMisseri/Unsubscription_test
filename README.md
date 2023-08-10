@@ -20,6 +20,7 @@ has the same value for all users. A model like this leads to patterns of subscri
 Where 1 indicates that user has paid the subscription, 0 that has not, therefore unsubscribing. Once you
 see a 0 for a user you won’t see 1 anymore, so this table is redundant. It is enough to have the count of
 renewals and the max time T a user has been observed.
+
 ![image](https://github.com/GiovanniMisseri/Unsubscription_test/assets/28415293/bb86caef-42a2-4f9b-87b8-566f60abedee)
 
 
